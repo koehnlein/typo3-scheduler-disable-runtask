@@ -1,0 +1,29 @@
+{
+	"name": "koehnlein/scheduler-disable-runtask",
+	"keywords": [
+		"TYPO3",
+		"extension",
+		"backend",
+		"scheduler"
+	],
+	"authors": [
+		{
+			"name": "Albrecht Köhnlein",
+			"role": "Developer"
+		}
+	],
+	"type": "typo3-cms-extension",
+	"description": "Disable \"Run task\" in scheduler",
+	"require": {
+		"typo3/cms-core": "^8.7"
+	},
+	"autoload": {
+		"psr-4": {
+			"Koehnlein\\SchedulerDisableRuntask\\": "Classes"
+		}
+	},
+	"replace": {
+		"scheduler_disable_runtask": "self.version",
+		"typo3-ter/scheduler-disable-runtask": "self.version"
+	}
+}
