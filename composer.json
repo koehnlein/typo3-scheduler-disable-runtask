@@ -23,7 +23,6 @@
 		}
 	},
 	"replace": {
-		"scheduler_disable_runtask": "self.version",
 		"typo3-ter/scheduler-disable-runtask": "self.version"
 	}
 }
