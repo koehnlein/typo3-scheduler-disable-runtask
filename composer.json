@@ -14,8 +14,14 @@
 	],
 	"type": "typo3-cms-extension",
 	"description": "Disable \"Run task\" in scheduler",
+	"license": "GPL-2.0-or-later",
 	"require": {
 		"typo3/cms-core": "^8.7"
+	},
+	"extra": {
+		"typo3/cms": {
+			"extension-key": "scheduler_disable_runtask"
+		}
 	},
 	"autoload": {
 		"psr-4": {
